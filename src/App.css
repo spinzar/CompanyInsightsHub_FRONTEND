@@ -36,3 +36,287 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+/* Search Component */
+.search-section {
+  background-color: #f3f4f6;
+  padding: 20px 0;
+}
+
+.search-container {
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.search-form {
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+  background-color: #1e3a8a;
+  border-radius: 10px;
+}
+
+.search-input {
+  padding: 10px;
+  border: 2px solid #ccc;
+  border-radius: 10px;
+  outline: none;
+}
+
+/* CardList Component */
+.no-results-message {
+  margin: 20px 0;
+  text-align: center;
+  font-size: 18px;
+  font-weight: bold;
+}
+
+/* Card Component */
+.card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 20px;
+  background-color: #f1f5f9;
+  border-radius: 10px;
+  margin: 10px 0;
+}
+
+.card-title {
+  font-weight: bold;
+  color: #3730a3;
+  text-align: center;
+}
+
+.card-currency, .card-exchange {
+  color: #1e293b;
+}
+
+/* AddPortfolio Component */
+.add-portfolio-form {
+  display: flex;
+  justify-content: center;
+  margin-top: 10px;
+}
+
+.add-portfolio-button {
+  padding: 10px 20px;
+  background-color: #3b82f6;
+  color: #fff;
+  border: none;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* CardPortfolio Component */
+.card-portfolio {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 0;
+}
+
+.card-portfolio-title {
+  font-weight: bold;
+}
+
+/* ListPortfolio Component */
+.list-portfolio {
+  padding: 20px;
+}
+
+.list-portfolio-title {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.portfolio-list {
+  list-style: none;
+  padding: 0;
+}
+
+
+
+
+/* DeletePortfolio Component */
+.delete-portfolio-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+}
+
+.delete-portfolio-form {
+  display: flex;
+}
+
+.delete-portfolio-button {
+  background-color: #ff0000;
+  color: white;
+  border: none;
+  padding: 5px 10px;
+  border-radius: 5px;
+  cursor: pointer;
+}
+
+/* Hero Component */
+.hero-section {
+  padding: 20px 0;
+  background-color: #f3f4f6;
+}
+
+.hero-container {
+  display: flex;
+  flex-direction: column-reverse;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+.hero-text-container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+.hero-title {
+  font-size: 2.5rem;
+  font-weight: bold;
+  text-align: center;
+}
+
+.hero-subtitle {
+  font-size: 1.5rem;
+  color: #4b5563;
+  text-align: center;
+  margin: 10px 0;
+}
+
+.hero-button-container {
+  margin-top: 20px;
+}
+
+.hero-button {
+  background-color: #10b981;
+  color: white;
+  padding: 10px 20px;
+  font-size: 1.25rem;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.hero-image-container {
+  margin-bottom: 20px;
+}
+
+.hero-image {
+  width: 100%;
+  border-radius: 10px;
+}
+
+/* Navbar Component */
+.navbar {
+  background-color: #ffffff;
+  padding: 20px 0;
+}
+
+.navbar-container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  max-width: 1024px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
+
+.navbar-left {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-logo {
+  margin-right: 20px;
+}
+
+.navbar-links {
+  display: none;
+}
+
+.navbar-link {
+  font-weight: bold;
+  color: black;
+  margin-right: 20px;
+  text-decoration: none;
+}
+
+.navbar-link:hover {
+  color: #1e3a8a;
+}
+
+.navbar-right {
+  display: flex;
+  align-items: center;
+}
+
+.navbar-login {
+  margin-right: 20px;
+  cursor: pointer;
+}
+
+.navbar-login:hover {
+  color: #1e3a8a;
+}
+
+.navbar-signup {
+  background-color: #10b981;
+  color: white;
+  padding: 10px 20px;
+  font-weight: bold;
+  border-radius: 5px;
+  text-decoration: none;
+}
+
+.navbar-signup:hover {
+  opacity: 0.7;
+}
+
+@media (min-width: 1024px) {
+  .hero-container {
+    flex-direction: row;
+  }
+
+  .hero-text-container {
+    align-items: flex-start;
+    text-align: left;
+    margin: 0;
+    flex: 1;
+  }
+
+  .hero-title {
+    font-size: 3.75rem;
+  }
+
+  .hero-subtitle {
+    font-size: 1.25rem;
+    max-width: 400px;
+  }
+
+  .hero-button-container {
+    margin: 0;
+  }
+
+  .hero-image-container {
+    flex: 1;
+    margin: 0;
+  }
+
+  .navbar-links {
+    display: flex;
+  }
+}
