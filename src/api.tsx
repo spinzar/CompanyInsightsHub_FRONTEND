@@ -2,7 +2,7 @@
 // import { CompanySearch } from "./types/company";
 
 import axios from "axios";
-import { CompanyBalanceSheet, CompanyCashFlow, CompanyIncomeStatement, CompanyKeyMetrics, CompanyProfile, CompanySearch } from "./types/company";
+import { CompanyBalanceSheet, CompanyCashFlow, CompanyIncomeStatement, CompanyKeyMetrics, CompanyProfile, CompanySearch, CompanyTenK } from "./types/company";
 
 // const API_KEY = process.env.REACT_APP_API_KEY;
 
@@ -115,6 +115,19 @@ export interface SearchResponse {
     try{
       const data = await axios.get<CompanyCashFlow[]>(
         `https://financialmodelingprep.com/api/v3/cash-flow-statement/${query}?limit=40&apikey=${process.env.REACT_APP_API_KEY}`
+      );
+      //console.log(data);
+
+      return data;
+    } catch(error: any){
+      console.log('error message from API2: ', error.message);
+    }
+  }
+
+  export const getTenK = async (query: string) => {
+    try{
+      const data = await axios.get<CompanyTenK[]>(
+        `https://financialmodelingprep.com/api/v3/sec-filings/${query}?type=10-k&page=0&apikey=${process.env.REACT_APP_API_KEY}`
       );
       //console.log(data);
 
