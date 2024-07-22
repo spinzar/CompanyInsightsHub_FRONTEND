@@ -6,6 +6,7 @@ import RatioList from '../ratio_list/RatioList';
 import LoadingSpinner from '../loading_spinners/LoadingSpinner';
 import { formatLargeNonMonetaryNumber, formatRatio } from '../helpers/NumberFormating';
 import Table from '../table/Table';
+import StockComment from '../stock_comment/StockComment';
 
 interface Props {}
 
@@ -89,13 +90,16 @@ const CompanyProfile = (props: Props) => {
             setCompanyData(value?.data[0]);
         };
 
-        //getCompanyKeyMetrics(); //commented for not consuming all free apis requests
+        getCompanyKeyMetrics(); //commented for not consuming all free apis requests
     }, [ticker]);
 
     return (
         <>
             {companyData ? (
+              <>
                 <RatioList data={companyData} config={tableConfig} />
+                <StockComment stockSymbol={ticker}/>
+              </>
             ) : (
                 // <h2>Loading data...</h2>
                 <LoadingSpinner />
