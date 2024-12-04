@@ -1,3 +1,6 @@
+// src/types/company.d.ts
+
+
 export interface CompanySearch {
     currency: string;
     exchangeShortName: string;
