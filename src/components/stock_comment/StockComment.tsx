@@ -1,3 +1,5 @@
+// src/components/stock_comment/StockComment.tsx
+
 import React, { useEffect, useState } from 'react'
 import StockCommentForm from './StockCommentForm'
 import { commentGetAPI, commentPostAPI } from '../../services/CommentService';

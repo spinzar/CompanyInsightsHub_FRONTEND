@@ -1,3 +1,5 @@
+// src/components/portfolio/DeletePortfolio.tsx
+
 import React, { SyntheticEvent } from 'react';
 
 interface Props {

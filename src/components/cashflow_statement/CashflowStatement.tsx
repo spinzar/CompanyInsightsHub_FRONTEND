@@ -1,3 +1,5 @@
+// src/components/cashflow_statement/CashflowStatement.tsx
+
 import React, { useEffect, useState } from 'react'
 import { CompanyCashFlow } from '../../types/company';
 import { useOutletContext } from 'react-router';

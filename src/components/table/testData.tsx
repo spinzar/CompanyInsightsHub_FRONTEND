@@ -1,3 +1,5 @@
+// src/components/table/testData.tsx
+
 export const TestDataCompany = [
     {
       symbol: "AAPL",

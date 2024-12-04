@@ -1,3 +1,5 @@
+// src/components/hero/Hero.tsx
+
 import React from 'react';
 import hero from '../../assets/trading.jpeg';
 import { Link } from 'react-router-dom';

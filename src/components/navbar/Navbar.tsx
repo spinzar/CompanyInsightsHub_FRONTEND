@@ -1,3 +1,5 @@
+// src/components/navbar/Navbar.tsx
+
 import React from 'react';
 import logo from '../../assets/tradeville.png';
 import { Link } from 'react-router-dom';

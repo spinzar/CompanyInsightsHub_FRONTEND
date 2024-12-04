@@ -1,3 +1,5 @@
+// src/components/income_statements/IncomeStatements.tsx
+
 import React, { useEffect, useState } from 'react'
 import { CompanyIncomeStatement } from '../../types/company';
 import { useOutletContext } from 'react-router';

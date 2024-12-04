@@ -1,3 +1,5 @@
+// src/components/stock_comment/StockCommentsList.tsx
+
 import React from 'react';
 import { CommentGet } from '../../models/Comment';
 import StockCommentsListItem from './StockCommentsListItem';

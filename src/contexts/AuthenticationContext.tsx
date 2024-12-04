@@ -1,3 +1,5 @@
+// src/contexts/AuthenticationContext.tsx
+
 import React, { createContext, useEffect, useState } from "react";
 import { UserProfile } from "../models/User";
 import { useNavigate } from "react-router";

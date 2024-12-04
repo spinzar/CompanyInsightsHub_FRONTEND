@@ -1,3 +1,5 @@
+// src/components/Card.tsx
+
 import React, { SyntheticEvent } from 'react';
 import { CompanySearch } from '../types/company';
 import AddPortfolio from './portfolio/AddPortfolio';

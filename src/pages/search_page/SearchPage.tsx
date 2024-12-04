@@ -1,3 +1,5 @@
+// src/pages/search_page/SearchPage.tsx
+
 import React, { ChangeEvent, SyntheticEvent, useEffect, useState } from 'react'
 import { CompanySearch } from '../../types/company';
 import { searchCompanies } from '../../api';

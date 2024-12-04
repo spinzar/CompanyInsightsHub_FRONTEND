@@ -1,3 +1,6 @@
+// src/components/title/Title.tsx
+
+
 import React from 'react'
 
 type Props = {

@@ -1,3 +1,5 @@
+// src/pages/company_page/CompanyPage.tsx
+
 import React, { useEffect, useState } from 'react'
 import { useParams } from 'react-router'
 import { CompanyProfile } from '../../types/company';

@@ -1,3 +1,5 @@
+// src/pages/register_page/RegisterPage.tsx
+
 import React from 'react';
 import * as Yup from "yup";
 import {yupResolver} from "@hookform/resolvers/yup";

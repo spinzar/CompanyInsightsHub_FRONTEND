@@ -1,3 +1,5 @@
+// src/components/company_profile/CompanyProfile.tsx
+
 import React, { useEffect, useState } from 'react';
 import { CompanyKeyMetrics } from '../../types/company';
 import { useOutletContext } from 'react-router-dom';

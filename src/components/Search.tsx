@@ -1,3 +1,5 @@
+// src/components/Search.tsx
+
 import React, { ChangeEvent, SyntheticEvent } from 'react';
 
 interface Props {

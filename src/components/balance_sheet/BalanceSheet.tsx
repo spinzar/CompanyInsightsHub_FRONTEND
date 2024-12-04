@@ -1,3 +1,5 @@
+// src/components/balance_sheet/BalanceSheet.tsx
+
 import React, { useEffect, useState } from 'react'
 import { CompanyBalanceSheet, CompanyCashFlow } from '../../types/company';
 import { useOutletContext } from 'react-router';

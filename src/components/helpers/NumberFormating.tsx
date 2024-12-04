@@ -1,3 +1,5 @@
+// src/components/helpers/NumberFormating.tsx
+
 export const formatLargeMonetaryNumber: any = (number: number) => {
     if (number < 0) {
       return "-" + formatLargeMonetaryNumber(-1 * number);

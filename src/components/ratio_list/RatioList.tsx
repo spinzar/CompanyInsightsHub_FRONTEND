@@ -1,3 +1,5 @@
+// src/components/ratio_list/RatioList.tsx
+
 import React from 'react';
 
 type Props = {

@@ -1,3 +1,5 @@
+// src/components/table/Table.tsx
+
 import React from 'react';
 import { testIncomeStatementData } from './testData';
 
